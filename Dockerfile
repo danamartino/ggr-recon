@@ -20,7 +20,7 @@ ENV LANG=en_US.UTF-8
 ENV LC_TYPE=en_US.UTF-8
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y wget \
-        curl vim nano zip
+        curl vim nano zip git
 
 # install CRKIT
 RUN mkdir /opt/crkit && \
